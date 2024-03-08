@@ -604,6 +604,7 @@ Pre-loader Style
 
 #heroo {
   width: 100%;
+padding: 295px 0px 185px 0px;
   height: 100vh;
   background: url("../images/tra2.jpg") top center no-repeat;
   background-size: cover;
