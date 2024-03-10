@@ -655,7 +655,7 @@ Pre-loader Style
   transition: 0.5s;
   margin-top: 30px;
   color: #fff;
-  background: black;
+  background-image: linear-gradient(to right, black, #9000ff, black);
   border: none;
 }
 
