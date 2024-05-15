@@ -1838,11 +1838,11 @@ Banner Style
 
 .main-banner:after {
   content: url(../images/infos-bg.jpg);
-  top: -1px;
+  top: -17%;
   right: 0;
   position: absolute;
   width: 861px;
-  height: 746px;
+  height: 560px !important;
   z-index: -1;
 }
 
@@ -3347,5 +3347,6 @@ body {
     background-color: rgba(250, 250, 250, 0.95);
     padding: 60px;
     border-radius: 23px;
+    margin-top: -21%;
   }
 }
