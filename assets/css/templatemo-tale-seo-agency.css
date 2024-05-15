@@ -187,7 +187,7 @@ img {
 .aboutt .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
-  color: #9000ff;
+  color: #31004a;
   margin-bottom: 15px;
 }
 
@@ -202,18 +202,18 @@ img {
   justify-content: center;
   width: 64px;
   height: 64px;
-  border: 2px solid #9000ff;
+  border: 2px solid #31004a;
   border-radius: 50px;
   transition: 0.5s;
 }
 
 .aboutt .iconn-box .icon i {
-  color: #9000ff;
+  color: #31004a;
   font-size: 32px;
 }
 
 .aboutt .iconn-box:hover .icon {
-  background: #9000ff;
+  background: #31004a;
   border-color: darkblue;
 }
 
@@ -224,7 +224,7 @@ img {
   justify-content: center;
   width: 64px;
   height: 64px;
-  border: 2px solid #9000ff;
+  border: 2px solid #31004a;
   border-radius: 50px;
   transition: 0.5s;
 }
@@ -241,7 +241,7 @@ img {
 }
 
 .aboutt .iconn-box .title a {
-  color: #9000ff;
+  color: #31004a;
   transition: 0.3s;
 }
 
@@ -255,6 +255,16 @@ img {
   line-height: 24px;
   font-size: 13px;
   font-weight: 600;
+  color: rgba(0, 0, 0, 0.699);
+}
+
+.aboutt .iconn-box .descriptions {
+  margin-left: 49px;
+  line-height: 24px;
+  font-size: 13px;
+  font-weight: 600;
+  list-style-type: disc;
+
   color: rgba(0, 0, 0, 0.699);
 }
 
@@ -354,12 +364,12 @@ body {
 }
 
 ::selection {
-  background: #5b03e4;
+  background: #31004a;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #5b03e4;
+  background: #31004a;
   color: #fff;
 }
 
@@ -370,7 +380,7 @@ body {
 
 .main-it {
   font-size: 14px;
-  color: #5b03e4;
+  color: #31004a;
   background-color: #ffffff;
   padding: 12px 30px;
   display: inline-block;
@@ -384,7 +394,7 @@ body {
 }
 
 .main-button a:hover {
-  background-color: #5b03e4;
+  background-color: #31004a;
   color: #fff;
   opacity: 0.8;
 }
@@ -392,7 +402,7 @@ body {
 .main {
   font-size: 14px;
   color: #fff;
-  background-color: #c03afe;
+  background-color: #31004a;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 25px;
@@ -405,7 +415,7 @@ body {
 }
 
 .second-button a:hover {
-  background-color: #c03afe;
+  background-color: #31004a;
   color: #fff;
   opacity: 0.8;
 }
@@ -424,8 +434,9 @@ body {
   width: 60px;
   height: 2px;
   margin-bottom: 20px;
-  background: #9000ff;
-  background: linear-gradient(90deg, #9000ff 0%, #0abab427);
+
+  background: #31004a;
+  background: linear-gradient(90deg, #31004a 0%, #0abab427);
 }
 
 .section-heading h2 {
@@ -438,12 +449,12 @@ body {
 }
 
 .section-heading h2 em {
-  color: #9000ff;
+  color: #31004a;
   font-style: normal;
 }
 
 .section-heading h2 span {
-  color: #9000ff;
+  color: #31004a;
 }
 
 /* 
@@ -519,7 +530,7 @@ Pre-loader Style
   height: 16px;
   top: 12px;
   left: 15px;
-  background: #5b03e4;
+  background: #31004a;
   border-radius: 50%;
   -webkit-transform: translateX(0);
   transform: translateX(0);
@@ -542,7 +553,7 @@ Pre-loader Style
   width: 16px;
   height: 16px;
   margin-left: 16px;
-  background: #9000ff;
+  background: #31004a;
   border-radius: 50%;
 }
 
@@ -554,14 +565,14 @@ Pre-loader Style
 .about h3 {
   font-size: 14px;
   font-weight: 700;
-  color: #9000ff;
+  color: #31004a;
   text-transform: uppercase;
 }
 
 .about h2 {
   font-size: 24px;
   font-weight: 700;
-  color: #9000ff;
+  color: #31004a;
 }
 
 .about p {
@@ -575,8 +586,8 @@ Pre-loader Style
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #9000ff;
-  box-shadow: 0px 5px 25px #9000ff;
+  background: #31004a;
+  box-shadow: 0px 5px 25px #31004a;
 }
 
 .about .btn-read-more span {
@@ -668,8 +679,8 @@ Pre-loader Style
   margin-top: 30px;
   color: #fff;
   font-family: cursive;
-  background-color: #9000ff;
-  /* background-image: linear-gradient(to right, black, #9000ff, black); */
+  background-color: #31004a;
+  /* background-image: linear-gradient(to right, black, #31004a, black); */
   border: none;
 }
 
@@ -718,7 +729,7 @@ Pre-loader Style
 .heroy h6 {
 
   font-size: 25px;
-  color: #9000ff;
+  color: #31004a;
   text-transform: uppercase;
   font-weight: 700;
   display: flex;
@@ -746,7 +757,7 @@ Pre-loader Style
 
 .heroy .icon-box:hover h5 {
   background-color: rgba(255, 255, 255, 0.9);
-  color: #9000ff;
+  color: #31004a;
 
 
   /* Adjust opacity on hover */
@@ -1304,7 +1315,7 @@ section {
   position: absolute;
 
   background: rgb(85, 0, 227);
-  background: linear-gradient(90deg, white 0%, rgba(85, 0, 227, 1) 0%, rgba(198, 61, 255, 1) 100%);
+  background: linear-gradient(90deg, white 0%, #31004a 0%, #31004a 100%);
   /* background: rgb(85, 0, 227); */
   /* /* background: linear-gradient(90deg, white 0%, rgba(85, 0, 227, 1) 0%, rgba(198, 61, 255, 1) 100%); */
   height: 90px;
@@ -1484,7 +1495,7 @@ section {
 
 .header-area .main-nav .nav li.has-sub ul li a:hover {
   background: #fff;
-  color: #5b03e4 !important;
+  color: #31004a !important;
   padding-left: 25px;
 }
 
@@ -1646,7 +1657,7 @@ section {
 
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #5b03e4 !important;
+    color: #31004a !important;
     opacity: 1;
   }
 
@@ -1720,7 +1731,7 @@ section {
 
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #5b03e4 !important;
+    color: #31004a !important;
   }
 
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
@@ -1811,7 +1822,7 @@ section {
 }
 
 .pre-header ul li a:hover {
-  color: #c03afe;
+  color: #31004a;
 }
 
 /* 
@@ -1847,7 +1858,7 @@ Banner Style
 
 .main-banner h6 {
   font-size: 20px;
-  color: #9000ff;
+  color: #31004a;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -1888,11 +1899,11 @@ Banner Style
 
 .main-banner h4 em {
   font-style: normal;
-  color: #c03afe;
+  color: #31004a;
 }
 
 .main-banner h4 span {
-  color: #9000ff;
+  color: #31004a;
 }
 
 .main-banner p {
@@ -1970,7 +1981,7 @@ Projects Style
   position: absolute;
   right: 30px;
   top: 50%;
-  color: #5b03e4;
+  color: #31004a;
   transform: translateY(-23px);
 }
 
@@ -1990,7 +2001,7 @@ Projects Style
   font-size: 24px;
   display: inline-block;
   color: #fff;
-  background-color: #5b03e4;
+  background-color: #31004a;
   border-radius: 50%;
   opacity: 0.5;
   transition: all .3s;
@@ -2089,8 +2100,8 @@ Infos Style
 
 .section-bg:before {
   content: "";
-  background-image: linear-gradient(to right, black, #9000ff, black);
-  /* background: #9000ff; */
+  background-image: linear-gradient(to right, black, #31004a, black);
+  /* background: #31004a; */
   position: absolute;
   bottom: 0%;
   top: 60px;
@@ -2107,7 +2118,7 @@ Infos Style
 
 .services .icon-box i {
   float: left;
-  color: #9000ff;
+  color: #31004a;
   font-size: 40px;
   line-height: 0;
 }
@@ -2137,7 +2148,7 @@ Infos Style
 }
 
 .services .icon-box h4 a {
-  color: #9000ff;
+  color: #31004a;
   transition: 0.3s;
 }
 
@@ -2400,13 +2411,13 @@ Infos Style
 
 .infos .main-content .skill-slide .fill {
   height: 10px;
-  background-color: #9000ff;
+  background-color: #31004a;
   border-radius: 5px;
 }
 
 .infos .main-content .skill-slide h6 {
   position: absolute;
-  color: #9000ff;
+  color: #31004a;
   font-size: 15px;
   left: 0;
   top: -25px;
@@ -2414,7 +2425,7 @@ Infos Style
 
 .infos .main-content .skill-slide span {
   position: absolute;
-  color: #9000ff;
+  color: #31004a;
   font-size: 15px;
   font-weight: 700;
   top: -25px;
@@ -2502,7 +2513,7 @@ Contact Style
   width: 100%;
   height: 46px;
   border-radius: 23px;
-  background-color: #9000ff;
+  background-color: #31004a;
   border: none;
   outline: none;
   padding: 0px 15px;
@@ -2520,7 +2531,7 @@ Contact Style
   width: 100%;
   height: 120px;
   border-radius: 23px;
-  background-color: #9000ff;
+  background-color: #31004a;
   border: none;
   outline: none;
   padding: 15px;
@@ -2550,8 +2561,8 @@ Contact Style
 
 .contact-us-content .more-info {
   text-align: center;
-  background: #9000ff;
-  background: linear-gradient(90deg, #006a5d 0%, #9000ff 100%);
+  background: #31004a;
+  background: linear-gradient(90deg, #006a5d 0%, #31004a 100%);
   border-radius: 0px 0px 23px 23px;
   padding: 45px 30px 15px 30px;
 }
@@ -2592,7 +2603,7 @@ footer p a {
 }
 
 footer p a:hover {
-  color: #5b03e4;
+  color: #31004a;
 }
 
 /* 
@@ -2629,7 +2640,7 @@ Page Heading Style
 
 .page-heading h6 {
   font-size: 20px;
-  color: #5b03e4;
+  color: #31004a;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -2651,11 +2662,11 @@ Page Heading Style
 
 .page-heading h4 em {
   font-style: normal;
-  color: #5b03e4;
+  color: #31004a;
 }
 
 .page-heading h4 span {
-  color: #c03afe;
+  color: #31004a;
 }
 
 .page-heading p {
@@ -2706,7 +2717,7 @@ Infos Style
   transform: translate(-23px, -23px);
   background-color: #fff;
   border-radius: 50%;
-  color: #5b03e4;
+  color: #31004a;
   display: inline-block;
   text-align: center;
   width: 46px;
@@ -2746,7 +2757,7 @@ Infos Style
 
 .video-info .skill-slide .fill {
   height: 10px;
-  background-color: #9000ff;
+  background-color: #31004a;
   border-radius: 5px;
 }
 
@@ -2861,7 +2872,7 @@ Happy Clients Style
 }
 
 .happy-clients .naccs .menu div.active {
-  color: #5b03e4;
+  color: #31004a;
 }
 
 .happy-clients ul.nacc {
@@ -2893,7 +2904,7 @@ Happy Clients Style
 }
 
 .happy-clients ul.nacc li .line-dec {
-  background-color: #5b03e4;
+  background-color: #31004a;
   width: 60px;
   height: 2px;
   margin-bottom: 25px;
@@ -2905,7 +2916,7 @@ Happy Clients Style
 
 .happy-clients ul.nacc li .info span {
   display: inline-block;
-  background-color: #5b03e4;
+  background-color: #31004a;
   border-radius: 20px;
   height: 40px;
   line-height: 40px;
@@ -2961,7 +2972,7 @@ CTA Style
 
 .cta .main-button a {
   background-color: #fff;
-  color: #5b03e4;
+  color: #31004a;
   margin-top: 30px;
 }
 
@@ -3076,7 +3087,7 @@ Most Asked Style
 }
 
 .most-asked .accordion-head.is-open {
-  color: #5b03e4;
+  color: #31004a;
   border-bottom: none;
 }
 
@@ -3130,7 +3141,7 @@ Most Asked Style
 #free-quote button {
   border: none;
   height: 46px;
-  background-color: #5b03e4;
+  background-color: #31004a;
   width: 100%;
   border-radius: 23px;
   color: #fff;
