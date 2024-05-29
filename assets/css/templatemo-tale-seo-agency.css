@@ -176,12 +176,21 @@ img {
   overflow: hidden;
 }
 
+.d-mage {
+  width: 50%;
+  height: 70vh;
+}
+
 /*--------------------------------------------------------------
 # aboutt
 --------------------------------------------------------------*/
 .aboutt {
   padding: 40px 0 0 0;
   margin-top: 10rem;
+}
+
+.mmm {
+  margin-top: -5rem;
 }
 
 .aboutt .icon-boxes h3 {
@@ -284,6 +293,52 @@ img {
   left: calc(50% - 47px);
   top: calc(50% - 47px);
   overflow: hidden;
+}
+
+@media (max-width: 767px) {
+
+  .image-container,
+  .text-container {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .heroy .icon-box {
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    position: relative;
+    animation-name: moveCard;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .mmm {
+    margin-top: -10rem;
+  }
+
+  .iconn-box {
+    margin-top: -5rem;
+  }
+
+  .col-custom {
+    flex: 0 0 100% !important;
+    /* Ensure full width on small screens */
+    max-width: 100% !important;
+    /* Ensure full width on small screens */
+    margin-left: 0% !important;
+    /* Reset margin for small screens */
+  }
+
+  .d-mage {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .aboutt .play-btn::after {
@@ -695,6 +750,15 @@ Pre-loader Style
     padding-top: 58px;
   }
 
+  .col-custom {
+    flex: 0 0 100% !important;
+    /* Ensure full width on small screens */
+    max-width: 100% !important;
+    /* Ensure full width on small screens */
+    margin-left: 0% !important;
+    /* Reset margin for small screens */
+  }
+
   #heroo h1 {
     font-size: 28px;
   }
@@ -708,6 +772,15 @@ Pre-loader Style
 @media (max-height: 500px) {
   #heroo {
     height: 120vh;
+  }
+
+  .col-custom {
+    flex: 0 0 100% !important;
+    /* Ensure full width on small screens */
+    max-width: 100% !important;
+    /* Ensure full width on small screens */
+    margin-left: 0% !important;
+    /* Reset margin for small screens */
   }
 }
 
@@ -829,6 +902,16 @@ Pre-loader Style
   .hero {
     background-attachment: fixed;
   }
+
+  .col-custom {
+    flex: 0 0 20% !important;
+    /* Ensure five columns per row */
+    max-width: 15% !important;
+    /* Ensure five columns per row */
+    margin-left: 5% !important;
+    /* Adjust padding as needed */
+    box-sizing: border-box !important;
+  }
 }
 
 .hero h2 {
@@ -852,6 +935,15 @@ Pre-loader Style
     font-size: 36px;
   }
 
+  .col-custom {
+    flex: 0 0 100% !important;
+    /* Ensure full width on small screens */
+    max-width: 100% !important;
+    /* Ensure full width on small screens */
+    margin-left: 0% !important;
+    /* Reset margin for small screens */
+  }
+
   .hero .btn-get-started,
   .hero .btn-watch-video {
     font-size: 14px;
@@ -860,6 +952,20 @@ Pre-loader Style
 
 .hero .icon-boxes {
   padding-bottom: 60px;
+}
+
+@media (max-width: 1366px) {
+
+
+  .col-custom {
+    flex: 0 0 20% !important;
+    /* Ensure five columns per row */
+    max-width: 15% !important;
+    /* Ensure five columns per row */
+    margin-left: 5% !important;
+    /* Adjust padding as needed */
+    box-sizing: border-box !important;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -872,6 +978,17 @@ Pre-loader Style
     height: calc(50% + 20px);
     background-color: #fff;
   }
+
+  .col-custom {
+    flex: 0 0 20% !important;
+    /* Ensure five columns per row */
+    max-width: 15% !important;
+    /* Ensure five columns per row */
+    margin-left: 5% !important;
+    /* Adjust padding as needed */
+    box-sizing: border-box !important;
+  }
+
 }
 
 
@@ -2526,18 +2643,14 @@ Contact Style
 
 
 #contact-form input::placeholder {
-  color: #2a2a2a;
+  color: white;
 }
 
-.col-custom {
-  flex: 0 0 20%;
-  /* Ensure five columns per row */
-  max-width: 15%;
-  /* Ensure five columns per row */
-  margin-left: 5%;
-  /* Adjust padding as needed */
-  box-sizing: border-box;
+#contact-form textarea::placeholder {
+  color: white;
 }
+
+
 
 #contact-form textarea {
   width: 100%;
@@ -2548,13 +2661,13 @@ Contact Style
   outline: none;
   padding: 15px;
   font-size: 14px;
-  color: #2a2a2a;
+  color: white;
   font-weight: 600;
   margin-bottom: 15px;
 }
 
 #contact-form textarea::placeholder {
-  color: #2a2a2a;
+  color: white;
 }
 
 #contact-form button {
@@ -3239,6 +3352,16 @@ body {
   .pre-header .left-info ul li {
     padding-right: 10px;
     margin-right: 10px;
+  }
+
+  .col-custom {
+    flex: 0 0 100% !important;
+    /* Ensure five columns per row */
+    max-width: 100% !important;
+    /* Ensure five columns per row */
+    margin-left: 5% !important;
+
+    box-sizing: border-box !important;
   }
 
   .pre-header .left-info ul li a {
