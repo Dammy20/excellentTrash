@@ -741,7 +741,7 @@ Pre-loader Style
 
 
 .heroy .icon-box {
-  width: 300px;
+  width: 250px;
   height: 200px;
   background-color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -2523,8 +2523,20 @@ Contact Style
   margin-bottom: 15px;
 }
 
+
+
 #contact-form input::placeholder {
   color: #2a2a2a;
+}
+
+.col-custom {
+  flex: 0 0 20%;
+  /* Ensure five columns per row */
+  max-width: 15%;
+  /* Ensure five columns per row */
+  margin-left: 5%;
+  /* Adjust padding as needed */
+  box-sizing: border-box;
 }
 
 #contact-form textarea {
