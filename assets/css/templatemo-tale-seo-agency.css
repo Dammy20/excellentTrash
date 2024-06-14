@@ -277,6 +277,28 @@ img {
   color: rgba(0, 0, 0, 0.699);
 }
 
+.descriptions {
+  margin-top: 15px;
+
+  line-height: 24px;
+  font-size: 13px;
+  font-weight: 600;
+  list-style-type: disc;
+
+  color: rgba(0, 0, 0, 0.699);
+}
+
+.description {
+  margin-top: 5px;
+
+  line-height: 24px;
+  font-size: 13px;
+  font-weight: bold;
+
+
+  color: black;
+}
+
 /* .aboutt .video-box {
   background: url("../img/aboutt.png") center center no-repeat;
   background-size: contain;
@@ -339,6 +361,45 @@ img {
     width: 100%;
     height: auto;
   }
+}
+
+.mage h4 {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.7;
+  padding-bottom: 15px;
+
+}
+
+
+.mage h2 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.7;
+  padding-bottom: 15px;
+
+}
+
+.mages {
+  text-align: justify;
+}
+
+.mage h6 {
+  font-size: 17px;
+
+  font-weight: 400;
+  line-height: 1.7;
+  padding-bottom: 15px;
+
+}
+
+.mages h6 i {
+  margin-right: 10px;
+}
+
+.all-mage {
+  text-align: justify;
+
 }
 
 .aboutt .play-btn::after {
@@ -631,7 +692,7 @@ Pre-loader Style
 }
 
 .about p {
-  margin: 15px 0 30px 0;
+  margin: 7px 0 10px 0;
   line-height: 24px;
 }
 
@@ -2501,8 +2562,8 @@ Infos Style
 }
 
 .img-fluid2 {
-  width: 100%;
-  height: 52.5vh;
+  width: 42rem;
+  height: 42rem;
 }
 
 .infos .main-content .left-image img {
@@ -2635,7 +2696,7 @@ Contact Style
   outline: none;
   padding: 0px 15px;
   font-size: 14px;
-  color: #2a2a2a;
+  color: white;
   font-weight: 600;
   margin-bottom: 15px;
 }
